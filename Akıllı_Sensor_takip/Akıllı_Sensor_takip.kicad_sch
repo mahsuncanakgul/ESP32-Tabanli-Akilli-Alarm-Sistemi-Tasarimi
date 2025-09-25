@@ -1,0 +1,227 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3df66dc0-218e-4e7a-93bd-0498e2180b6d")
+	(paper "A4")
+	(title_block
+		(title "Akıllı_Sensor_Takip")
+		(date "2025-09-22")
+		(rev "AA")
+		(company "Mahsun Can AKGÜL")
+		(comment 1 "mahsuncanakgul06@gmail.com")
+	)
+	(lib_symbols)
+	(text_box "PORJENİN AMACI:\nBu projede, ESP32 kullanılarak ortamın sıcaklık, nem ve gaz değerleri ölçülecektir. Toplanan veriler, internet üzerinden kullanıcıya iletilecek ve böylece kullanıcı ortamda olmasa bile güncel durumu takip edebilecektir. Ortam koşullarına göre RGB LED ve buzzer ile uyarı sistemi sağlanacaktır. Ayrıca, OLED ekran üzerinden anlık değerler görselleştirilecektir. Yazılım tarafında geliştirilen modlar sayesinde, LED ve buzzer ayarları kullanıcıya göre özelleştirilebilecektir."
+		(exclude_from_sim no)
+		(at 176.53 85.09 0)
+		(size 106.68 80.01)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "badf3d2c-b321-4d60-9a85-3edc6823756a")
+	)
+	(sheet
+		(at 168.91 16.51)
+		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01e533c9-73b4-41ae-badb-487009beef82")
+		(property "Sheetname" "testpoint"
+			(at 168.91 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "testpoint.kicad_sch"
+			(at 168.91 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Akıllı_Sensor_takip"
+				(path "/3df66dc0-218e-4e7a-93bd-0498e2180b6d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 16.51)
+		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ea5c2ab-f6d3-4598-84a2-6048acc9ecc0")
+		(property "Sheetname" "mq6&dht11"
+			(at 116.84 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mq4.kicad_sch"
+			(at 116.84 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Akıllı_Sensor_takip"
+				(path "/3df66dc0-218e-4e7a-93bd-0498e2180b6d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "918faac6-1a05-4005-a314-a25166de4797")
+		(property "Sheetname" "esp32"
+			(at 15.24 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 15.24 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Akıllı_Sensor_takip"
+				(path "/3df66dc0-218e-4e7a-93bd-0498e2180b6d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 16.51)
+		(size 45.72 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0b1921b-7b67-456a-a971-557661c3d88c")
+		(property "Sheetname" "power"
+			(at 66.04 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 66.04 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Akıllı_Sensor_takip"
+				(path "/3df66dc0-218e-4e7a-93bd-0498e2180b6d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
